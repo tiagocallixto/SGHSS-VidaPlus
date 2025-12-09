@@ -1,0 +1,9 @@
+{
+  "query": "INSERT INTO users (email, name, password, role, loginMethod, openId, createdAt, updatedAt, lastSignedIn) \nVALUES ('admin@vidaplus.com', 'Administrador VidaPlus', '$2a$10$YQ5gZJ8vB.5yN5X5qZxqXOqKqV8kZJ8vB.5yN5X5qZxqXOqKqV8kZ', 'admin', 'email', NULL, NOW(), NOW(), NOW())\nON DUPLICATE KEY UPDATE name = 'Administrador VidaPlus';",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2hGkjXxYrwoThPZ.root --database CwiQ6ZBHyKZ3yHiDb39UrT --execute INSERT INTO users (email, name, password, role, loginMethod, openId, createdAt, updatedAt, lastSignedIn) \nVALUES ('admin@vidaplus.com', 'Administrador VidaPlus', '$2a$10$YQ5gZJ8vB.5yN5X5qZxqXOqKqV8kZJ8vB.5yN5X5qZxqXOqKqV8kZ', 'admin', 'email', NULL, NOW(), NOW(), NOW())\nON DUPLICATE KEY UPDATE name = 'Administrador VidaPlus';",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 562
+}

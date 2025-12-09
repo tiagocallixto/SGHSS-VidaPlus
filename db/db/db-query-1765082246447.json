@@ -1,0 +1,16 @@
+{
+  "query": "SELECT id, email, name, role FROM users WHERE email = 'admin@vidaplus.com';",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2hGkjXxYrwoThPZ.root --database CwiQ6ZBHyKZ3yHiDb39UrT --execute SELECT id, email, name, role FROM users WHERE email = 'admin@vidaplus.com';",
+  "rows": [
+    {
+      "id": "1050001",
+      "email": "admin@vidaplus.com",
+      "name": "Administrador do Sistema",
+      "role": "admin"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\temail\tname\trole\n1050001\tadmin@vidaplus.com\tAdministrador do Sistema\tadmin\n",
+  "stderr": "",
+  "execution_time_ms": 59
+}

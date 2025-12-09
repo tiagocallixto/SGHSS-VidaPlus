@@ -1,0 +1,24 @@
+{
+  "query": "SELECT id, email, name, role, password IS NOT NULL as has_password FROM users ORDER BY id;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2hGkjXxYrwoThPZ.root --database CwiQ6ZBHyKZ3yHiDb39UrT --execute SELECT id, email, name, role, password IS NOT NULL as has_password FROM users ORDER BY id;",
+  "rows": [
+    {
+      "id": "1",
+      "email": "kakadosgamesbr@gmail.com",
+      "name": "Tiago Silva",
+      "role": "admin",
+      "has_password": "0"
+    },
+    {
+      "id": "960011",
+      "email": "admin@vidaplus.com",
+      "name": "Administrador VidaPlus",
+      "role": "admin",
+      "has_password": "1"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\temail\tname\trole\thas_password\n1\tkakadosgamesbr@gmail.com\tTiago Silva\tadmin\t0\n960011\tadmin@vidaplus.com\tAdministrador VidaPlus\tadmin\t1\n",
+  "stderr": "",
+  "execution_time_ms": 200
+}

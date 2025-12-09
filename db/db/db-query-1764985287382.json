@@ -1,0 +1,28 @@
+{
+  "query": "SELECT id, email, name, role FROM users ORDER BY role DESC;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2hGkjXxYrwoThPZ.root --database CwiQ6ZBHyKZ3yHiDb39UrT --execute SELECT id, email, name, role FROM users ORDER BY role DESC;",
+  "rows": [
+    {
+      "id": "990014",
+      "email": "admin@vidaplus.com",
+      "name": "Administrador do Sistema",
+      "role": "admin"
+    },
+    {
+      "id": "990015",
+      "email": "kakadosgamesbr@gmail.com",
+      "name": "Tiago Silva",
+      "role": "admin"
+    },
+    {
+      "id": "1020028",
+      "email": "usuario@vidaplus.com",
+      "name": "Usuário Teste",
+      "role": "user"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\temail\tname\trole\n990014\tadmin@vidaplus.com\tAdministrador do Sistema\tadmin\n990015\tkakadosgamesbr@gmail.com\tTiago Silva\tadmin\n1020028\tusuario@vidaplus.com\tUsuário Teste\tuser\n",
+  "stderr": "",
+  "execution_time_ms": 48
+}

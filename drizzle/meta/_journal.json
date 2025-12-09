@@ -1,0 +1,34 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1762818028431,
+      "tag": "0000_burly_meltdown",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1762818159570,
+      "tag": "0001_wild_ghost_rider",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1764280306669,
+      "tag": "0002_flowery_steel_serpent",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1764982586190,
+      "tag": "0003_colorful_lady_bullseye",
+      "breakpoints": true
+    }
+  ]
+}

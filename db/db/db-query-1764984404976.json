@@ -1,0 +1,9 @@
+{
+  "query": "INSERT INTO users (email, name, role, password, loginMethod, openId, lastSignedIn) VALUES ('admin@vidaplus.com', 'Administrador do Sistema', 'admin', '$2b$10$96v/6kEcHDlgqMRoc1J3aOq23ZQ4KEWvQVSDeEWB0Vy7thRcEqZC6', 'email', CONCAT('admin-', UUID()), NOW());",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2hGkjXxYrwoThPZ.root --database CwiQ6ZBHyKZ3yHiDb39UrT --execute INSERT INTO users (email, name, role, password, loginMethod, openId, lastSignedIn) VALUES ('admin@vidaplus.com', 'Administrador do Sistema', 'admin', '$2b$10$96v/6kEcHDlgqMRoc1J3aOq23ZQ4KEWvQVSDeEWB0Vy7thRcEqZC6', 'email', CONCAT('admin-', UUID()), NOW());",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 53
+}

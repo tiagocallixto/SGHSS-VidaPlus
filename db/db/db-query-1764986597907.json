@@ -1,0 +1,22 @@
+{
+  "query": "SELECT * FROM users WHERE id = 990014;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2hGkjXxYrwoThPZ.root --database CwiQ6ZBHyKZ3yHiDb39UrT --execute SELECT * FROM users WHERE id = 990014;",
+  "rows": [
+    {
+      "id": "990014",
+      "openId": "admin-a06cd9ea-d242-11f0-a38d-9e58d75ac9f3",
+      "name": "Administrador do Sistema",
+      "email": "admin@vidaplus.com",
+      "loginMethod": "email",
+      "role": "admin",
+      "createdAt": "2025-12-06 01:26:44",
+      "updatedAt": "2025-12-06 01:59:05",
+      "lastSignedIn": "2025-12-06 01:59:05",
+      "password": "$2b$10$96v/6kEcHDlgqMRoc1J3aOq23ZQ4KEWvQVSDeEWB0Vy7thRcEqZC6"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\topenId\tname\temail\tloginMethod\trole\tcreatedAt\tupdatedAt\tlastSignedIn\tpassword\n990014\tadmin-a06cd9ea-d242-11f0-a38d-9e58d75ac9f3\tAdministrador do Sistema\tadmin@vidaplus.com\temail\tadmin\t2025-12-06 01:26:44\t2025-12-06 01:59:05\t2025-12-06 01:59:05\t$2b$10$96v/6kEcHDlgqMRoc1J3aOq23ZQ4KEWvQVSDeEWB0Vy7thRcEqZC6\n",
+  "stderr": "",
+  "execution_time_ms": 614
+}

@@ -1,0 +1,17 @@
+{
+  "query": "SELECT id, email, name, role, password IS NOT NULL as has_password FROM users WHERE email = 'admin@vidaplus.com';",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2hGkjXxYrwoThPZ.root --database CwiQ6ZBHyKZ3yHiDb39UrT --execute SELECT id, email, name, role, password IS NOT NULL as has_password FROM users WHERE email = 'admin@vidaplus.com';",
+  "rows": [
+    {
+      "id": "990014",
+      "email": "admin@vidaplus.com",
+      "name": "Administrador do Sistema",
+      "role": "admin",
+      "has_password": "1"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\temail\tname\trole\thas_password\n990014\tadmin@vidaplus.com\tAdministrador do Sistema\tadmin\t1\n",
+  "stderr": "",
+  "execution_time_ms": 52
+}
