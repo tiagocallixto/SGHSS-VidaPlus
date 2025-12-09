@@ -11,7 +11,7 @@ Sistema desenvolvido para apoiar processos clínicos e administrativos de instit
 - **TypeScript** – Tipagem estática e segurança em tempo de desenvolvimento  
 - **Drizzle ORM** – Mapeamento e operações no banco de dados  
 - **Zod** – Validação de dados e schemas  
-- **PostgreSQL** (ou outro DB configurado) – Persistência  
+- **PostgreSQL** – Persistência  
 - **Auth Middleware** – Proteção de rotas e procedimentos sensíveis  
 
 ---
